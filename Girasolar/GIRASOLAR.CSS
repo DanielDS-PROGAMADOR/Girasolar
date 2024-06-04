@@ -1,0 +1,373 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Asteria Royalty DEMO";
+    src: url(fontes/Asteria\ Royalty\ DEMO.otf);
+
+}
+
+@font-face {
+    font-family: "GeosansLight-Oblique";
+    src: url(fontes/GeosansLight-Oblique.ttf);
+}
+
+@font-face {
+    font-family: "Confortaa";
+    src: url(fontes/Comfortaa-VariableFont_wght.ttf);
+}
+
+html, body 
+{ 
+ height: 100%;
+ overflow-x: hidden;
+}
+
+body {
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+   /* background-color: #DDD0C5;*/
+
+}
+
+.pag-1{
+    background:#020112;
+
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    flex-wrap: wrap;
+}
+
+.imagem-do-cabeçalho {
+    width: 50%;
+
+}
+
+#nav {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+#menu{
+    display: flex;
+    list-style: none;
+    gap: 70px;
+    align-items: center;
+} 
+
+.cabeçalho-menu-item {
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    font-weight: 400;
+    font-size: 17,32px;
+    flex: 1 1 150px;
+    margin-top: 5%;
+}
+
+#itemmenu{
+    color: #DDD0C5;
+}
+
+#home{
+    color: #E67229;
+}
+
+#Entrar{
+    color: #E67229;
+    margin-left: 85%;
+}
+
+#cadastro{
+    border: #E67229 solid 1px;
+    color: #DDD0C5;
+    padding: 10%;
+    border-radius: 10px;
+}
+
+#btn-mobile{
+    display: none;
+}
+
+.conteúdo {
+    margin-bottom: 48px;
+    margin-left: 5%;
+    margin-right: 2%;
+}
+
+.conteúdo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteúdo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+}
+
+.conteúdo-principal-escrito-título {
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    color: #fff;
+    max-width: 80%;
+    max-width: 70%;
+}
+
+.conteúdo-principal-escrito-subtítulo {
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    font-weight: 200;
+    font-size: 75px;
+    color: #E67229;
+    height: 144px;
+    width: 422px;
+    left: -499px;
+    top: -518px;
+    border-radius: nullpx;
+}
+
+.conteúdo-principal-imagem {
+    height: 550px;
+    margin-bottom: 5%;
+    margin-right: 3%;
+}
+
+.pag-2{
+    justify-content: center;
+}
+
+/*.pag-3{
+    background-color: #DDD0C5;
+}*/
+
+.sobre{
+font-family: 'Poppins', 'Confortaa', sans-serif;
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 5%;
+text-align: left;
+}
+
+#sobre{
+    text-align: center;
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    font-size: 30px;
+    color: #E67229;
+    text-align: center;
+    font-weight: 200;
+}
+
+#título-sobre-pag-2{
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+
+
+.p-pag-2{
+    text-align: left;
+    font-size: 25px;
+}
+
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    }
+
+.esquerda{
+    width: 50%;
+    display: inline-block;
+}
+
+.direita{
+    width: 50%;
+}
+
+#imagens-dos-bonecos-2{
+    max-width: 30%;
+    margin-bottom: 3%;
+    margin-right: 80%;
+}
+/*.imagem-pag-2{
+    width: 10% ;
+}*/
+
+
+
+
+.conteúdo-pag-3{display: flex;
+flex-direction: wrap;
+justify-content: space-around;
+margin-left: 20%;
+margin-right: 20%;
+margin-bottom: 5%;
+
+}
+
+.título-pag-3{
+    font-family: 'Poppins', 'Confortaa', sans-serif;;
+    text-align: center;
+ margin-top: 5%;
+    font-size: 45px;
+    color:#E67229;
+    margin-bottom: 1%;
+    
+}
+
+.textos-pag-3{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-top: 1%;
+    border: solid #E67229;
+    border-radius: 30px;
+    margin-top: 50px;
+    
+}
+
+.títulos-pag-3{font-family: 'Poppins', 'Confortaa', sans-serif;;
+    text-align: center;
+    cursor: pointer;
+   
+}
+
+.p-pag-3{
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+color: #2A3B4D;
+padding: 10px;
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    background-image:
+    linear-gradient(transparent 0%,transparent 90%, #E67229 90%,#E67229 100%);
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position: right;
+    transition: backgroud-size 300ms;
+    cursor: pointer;
+
+}
+
+.p-pag-3:hover{
+    background-size: 100% 100%;
+    background-position: left;
+}
+
+
+.formas-de-baixar{
+    display: flex;
+    padding-left: 5%;
+    
+}
+
+
+
+/*.botões{
+    padding: 10px;
+    font-family: 'Poppins', 'Confortaa', sans-serif;
+    background-image:
+    linear-gradient(transparent 0%,transparent 90%, #E67229 90%,#E67229 100%);
+
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position: right;
+    transition: backgroud-size 300ms;
+}
+
+.botões:hover{
+    background-size: 100% 100%;
+    background-position: left;
+}*/
+
+
+#imagens-dos-bonecos-2{
+    margin-left: 40%;
+    
+}
+
+.rodapé {
+    padding: 32px;
+    background-color:#020112;
+   
+}
+
+.imagem-do-rodape{
+    width: 10%;
+    margin-left: 5%;
+}
+
+.texto-rodapé{
+    color:#fff;
+    font-family:'Poppins', 'Confortaa', sans-serif;
+}
+
+.área-do-texto-rodapé{
+    display: flex;
+    flex-direction: row;
+    border-top: #E67229 1px solid;
+}
+
+.texto-rodapé{
+    padding: 5%;
+}
+
+.email-rodapé{
+    border-bottom: #E67229 solid 1px;
+    padding-bottom: 3%;
+}
+
+.rodapé-menu{
+    font-family:'Poppins', 'Confortaa', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 5%; 
+}
+
+.rodapé-do-rodapé{display: flex;
+justify-content: space-between;}
+
+.textos-do-rodapé-do-rodapé{
+    display: flex;
+justify-content: space-between;
+}
+
+.rodapé-menu-item{
+    color: #DDD0C5;
+    font-family:'Poppins', 'Confortaa', sans-serif;
+}
+
+#título-menu-rodapé-1{
+    color: #E67229;
+}
+
+#título-menu-rodapé-2{
+    color: #E67229;
+}
+
+#título-menu-rodapé-3{
+    color: #E67229;
+}
+
+.textos-do-rodapé-do-rodapé{
+    display: flex;
+}
+
+#P-P{margin-left: 3%;}

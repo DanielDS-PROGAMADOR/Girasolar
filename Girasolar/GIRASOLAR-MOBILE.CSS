@@ -1,0 +1,157 @@
+@media (max-width: 999px){
+    
+    #btn-mobile{
+        display: block;
+    }
+
+    #menu{
+        display: block; 
+        position: absolute;
+        width: 100%;
+        top: 26%;
+        right: 0px;
+        background: white;
+        height: 0px;
+        transition: .6s;
+        z-index: 1000; 
+        overflow-y: hidden; 
+
+    }
+
+    #nav.active #menu { 
+        height: calc(100vh - 115px);
+        visibility: visible; 
+        overflow-y: auto; 
+    }
+
+    .cabeçalho-menu-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        padding: 1rem;
+        color: #E67229;
+    }
+
+    #itemmenu {
+        color: #020112;
+    }
+
+    #Entrar {
+        margin-left: 0 !important; 
+        margin-top: 3%;
+    }
+
+    #cadastro {
+        padding: 2%;
+        color: #020112;
+    }
+
+    #btn-mobile{
+        display: flex;
+        padding: .5rem 1rem;
+        font-size: 1rem;
+        border:none;
+        background: none;
+        cursor:pointer;
+        gap: .5rem;
+    }
+
+    #hamburger{
+        display: block;
+        border-top: 2px solid;
+        width: 20px;
+        color: white;
+    }
+
+    #hamburger::after, #hamburger::before {
+        content:'';
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger{
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform:rotate(135deg);  
+    }
+
+    #nav.active #hamburger::after {
+        transform:rotate(-135deg);
+        top: -7px;
+    }
+
+    main{
+        flex-direction: column;
+    }
+
+    .conteúdo-principal-imagem{
+        display: none;
+    }
+
+    .sobre {
+        margin: 0 !important;
+    }
+
+    #sobre h1{
+        margin-bottom: 10px;
+    }
+
+    .conteúdo-principal-escrito-subtítulo {
+        font-family: 'Poppins', 'Confortaa', sans-serif;
+        font-weight: 200;
+        font-size: 75px;
+        color: #E67229;
+        height: 144px;
+        width: 422px;
+        left: -499px;
+        top: -518px;
+        border-radius: nullpx;
+    }
+    
+    .conteúdo-principal-imagem {
+        height: 550px;
+        margin-bottom: 5%;
+        margin-right: 3%;
+    }
+    
+
+    .imagem-do-rodape{
+        width: 20%;
+    }
+
+    .área-do-texto-rodapé{
+        display: flex;
+        flex-direction: column;
+        border-top: #E67229 1px solid;
+    }
+    
+    #imagens-dos-bonecos-2 {
+        display: none;
+    }
+
+    .conteúdo-pag-3{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    
+    #imagens-dos-bonecos-2 {
+        display: none;
+    }
+
+    .imagem-do-rodape{
+        width: 30%;
+    }
+
+}
